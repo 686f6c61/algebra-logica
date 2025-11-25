@@ -1,0 +1,56 @@
+{
+  "name": "algebra-logica",
+  "version": "2.1.0",
+  "description": "Aplicación web educativa para el aprendizaje de Lógica Proposicional: tablas de verdad, formas normales, árboles sintácticos y circuitos lógicos",
+  "author": "686f6c61 <https://github.com/686f6c61>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/686f6c61/algebra-logica.git"
+  },
+  "homepage": "https://github.com/686f6c61/algebra-logica",
+  "bugs": {
+    "url": "https://github.com/686f6c61/algebra-logica/issues"
+  },
+  "keywords": [
+    "logica-proposicional",
+    "tablas-verdad",
+    "algebra",
+    "educacion",
+    "matematicas",
+    "react",
+    "circuitos-logicos",
+    "arboles-sintacticos"
+  ],
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "classnames": "^2.5.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.4",
+    "jspdf-autotable": "^5.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^6.30.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
